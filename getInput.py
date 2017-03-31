@@ -18,8 +18,10 @@ def solution4():
     a, b, c = [int(a), int(b), int(c)]
     print(a, ',', b, ',', c)
 
+def solution5():
+    v = int(input("enter number: "))
+    print(2*v)
 
-solution1()
-solution2()
-solution3()
-solution4()
+
+
+solution5()

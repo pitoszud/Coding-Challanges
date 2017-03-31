@@ -14,7 +14,6 @@ def solution():
 
 
     if chk:
-
         c = 0
         for j in range(len(d)):
             print(d[j])
@@ -24,5 +23,6 @@ def solution():
                     print(' ',' ', d[j] + d[i])
                     c += 1
         print('counter',c)
+
 
 solution()
