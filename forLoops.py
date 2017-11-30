@@ -20,6 +20,8 @@ def solution():
 
     for i in numStr:
         print(i)  # five, ten, fifteen, twenty, twentyFive, thirty, thirtyFive
+    for i in num:
+        print(i)
 
     print()
 
