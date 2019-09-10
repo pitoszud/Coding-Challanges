@@ -2,10 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77ba5813-3646-44d5-afbc-d3d71e6bd941" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RepeatedString.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayLeftRotation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kt/ArrayLeftRotation.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BoatTrips.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/BoatTrips.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CamelCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/CamelCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CircularArrayRotation.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/CircularArrayRotation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompressString.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kt/CompressString.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CountingVallyesTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Counting_Valleys.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kt/Counting_Valleys.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Diagonal_Difference.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/Diagonal_Difference.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DivisibleSumPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/DivisibleSumPairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DivisibleSumPairs.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/DivisibleSumPairs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DrawingBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/DrawingBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EqualizeArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/EqualizeArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EqualizeArray.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/EqualizeArray.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InsDelChkOneEdit.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kt/InsDelChkOneEdit.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JumpOnClouds.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/JumpOnClouds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JumpOnClouds.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/JumpOnClouds.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarsExploration.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/MarsExploration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/MiniMax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniMax2.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/MiniMax2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MinimumAbsoluteDifference.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/MinimumAbsoluteDifference.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepeatedString.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/RepeatedString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepeatedString.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/RepeatedString.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SockMerchant.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/SockMerchant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TailorShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/TailorShop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Time In Words.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/Time In Words.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ViralAdvertising.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/ViralAdvertising.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forLoops.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/forLoops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getInput.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/getInput.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/isUnique.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kt/isUnique.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniMax.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/miniMax.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socks.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/socks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sos.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/sos.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,10 +45,6 @@
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
-  <component name="FileEditorManager">
-    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -28,66 +56,40 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/RepeatedString.py" />
-      </list>
-    </option>
-  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1186" />
-  </component>
+  <component name="ProjectId" id="1Qdi3k63u0qs3xjjT5Hfj5QlZvJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HackerRankPy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HackerRankPy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/PythonStudy" />
     <property name="js.eslint.eslintPackage" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\HackerRank-Challanges\java" />
+      <recent name="E:\HackerRank-Challanges\kt" />
+      <recent name="E:\HackerRank-Challanges\py" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -299,8 +301,8 @@
       <method />
     </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -320,68 +322,22 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
-    <editor active="false" />
-    <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25266525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HackerRank initial commit" />
     <option name="LAST_COMMIT_MESSAGE" value="HackerRank initial commit" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/EqualizeArray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RepeatedString.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BoatTrips.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
