@@ -1,43 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77ba5813-3646-44d5-afbc-d3d71e6bd941" name="Default" comment="">
+    <list default="true" id="77ba5813-3646-44d5-afbc-d3d71e6bd941" name="Default" comment="HackerRank initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kt/FormingMagicSquare.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArrayLeftRotation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kt/ArrayLeftRotation.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BoatTrips.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/BoatTrips.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CamelCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/CamelCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CircularArrayRotation.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/CircularArrayRotation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CompressString.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kt/CompressString.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CountingVallyesTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Counting_Valleys.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kt/Counting_Valleys.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Diagonal_Difference.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/Diagonal_Difference.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DivisibleSumPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/DivisibleSumPairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DivisibleSumPairs.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/DivisibleSumPairs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DrawingBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/DrawingBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EqualizeArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/EqualizeArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EqualizeArray.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/EqualizeArray.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InsDelChkOneEdit.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kt/InsDelChkOneEdit.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JumpOnClouds.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/JumpOnClouds.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JumpOnClouds.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/JumpOnClouds.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MarsExploration.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/MarsExploration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/MiniMax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniMax2.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/MiniMax2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MinimumAbsoluteDifference.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/MinimumAbsoluteDifference.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RepeatedString.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/RepeatedString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RepeatedString.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/RepeatedString.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SockMerchant.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/SockMerchant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TailorShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/TailorShop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Time In Words.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/Time In Words.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViralAdvertising.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/ViralAdvertising.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forLoops.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/forLoops.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getInput.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/getInput.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/isUnique.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kt/isUnique.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/miniMax.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/miniMax.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socks.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/socks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sos.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/sos.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,11 +30,21 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="qwupxcge" />
+  </component>
   <component name="ProjectId" id="1Qdi3k63u0qs3xjjT5Hfj5QlZvJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -78,18 +56,6 @@
       <recent name="E:\HackerRank-Challanges\kt" />
       <recent name="E:\HackerRank-Challanges\py" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -301,6 +267,7 @@
       <method />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -335,6 +302,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HackerRank initial commit" />
