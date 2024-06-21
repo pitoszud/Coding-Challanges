@@ -1,28 +1,25 @@
-package codingInterview
-
 fun main(args: Array<String>) {
     solution()
 }
 
 fun solution(){
-    val (n, d) = readLine()!!.split(' ').map(String::toInt)
+    val (n, d) = readln().split(' ').map(String::toInt)
     //val na1: Array<Int> = readLine()!!.split(' ').map{it.toInt()}.toTypedArray() // Array<Int>
     //val na3: Array<Int> = readLine()!!.split(' ').map(String::toInt).toTypedArray()
     //val na4: List<Int> = readLine()!!.split(' ').map{it.toInt()}
 
-    val na: Array<Int> = readLine()!!.split(' ').map{it.toInt()}.toTypedArray()
+    val na: Array<Int> = readln().split(' ').map{it.toInt()}.toTypedArray()
     if (na.size == n){
         val s: Array<Int> = sol(na, d)
         for (i in s) print("$i ")
     }
 }
 
-fun sol(na: Array<Int>, d: Int):Array<Int>{
-    var i: Int
-    if (d <= na.size){
-        i = na.size - d
+fun sol(na: Array<Int>, d: Int): Array<Int>{
+    val i: Int = if (d <= na.size){
+        na.size - d
     } else{
-        i = na.size - (d % na.size)
+        na.size - (d % na.size)
     }
 
     val sh = na.copyOfRange(0, na.size - i)

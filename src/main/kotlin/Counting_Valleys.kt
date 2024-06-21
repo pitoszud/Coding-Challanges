@@ -1,5 +1,3 @@
-package codingInterview
-
 import kotlin.collections.*
 import kotlin.io.*
 import kotlin.text.*
@@ -55,7 +53,7 @@ open class CountingVallyes{
     fun matchConstraints(n: Int, s: String): Boolean{
         var match = false
 
-        if ((n >= 2) and (n <= 1000000)) if (s.matches("U")){
+        if ((n >= 2) and (n <= 1000000)) if (s.matches("U".toRegex())){
             match = true
         }
 

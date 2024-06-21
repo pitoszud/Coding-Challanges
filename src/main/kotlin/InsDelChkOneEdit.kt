@@ -1,5 +1,3 @@
-package codingInterview
-
 fun main(args: Array<String>) {
     oneEditInsert("Pattryk", "Patryk")
 }

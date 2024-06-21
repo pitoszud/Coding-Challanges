@@ -1,13 +1,11 @@
-package codingInterview
-
 fun main(args: Array<String>) {
 
 }
 
 fun compress(str: String){
-    var compressed = StringBuilder()
+    val compressed = StringBuilder()
     var conc = 0
-    for (i in 0 until str.length) {
+    for (i in str.indices) {
         conc++
         println(conc)
         if (i + 1 >= str.length || str[i] != str[i+1]){

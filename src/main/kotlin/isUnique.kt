@@ -1,12 +1,9 @@
-package codingInterview
-
-
 fun isUniqueString(str: String): Boolean {
     if (str.length > 128) return false
 
     val charSet = BooleanArray(128)
-    for (i in 0 until str.length) {
-        val charVal = str[i].toInt()
+    for (element in str) {
+        val charVal = element.code
         println("check $charVal")
         if (charSet[charVal]) {
             println("already exists - return false")
@@ -24,5 +21,6 @@ fun isUniqueString(str: String): Boolean {
 
 
 fun main(args: Array<String>){
-
+    val unique = "unique"
+    println(isUniqueString(unique))
 }
