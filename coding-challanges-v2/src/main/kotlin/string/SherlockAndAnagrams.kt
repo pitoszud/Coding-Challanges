@@ -1,4 +1,4 @@
-
+package string
 fun main() {
     sherlockAndAnagrams("ifailuhkqq")
 }

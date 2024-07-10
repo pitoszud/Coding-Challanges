@@ -1,4 +1,6 @@
-fun main(args: Array<String>) {
+package string
+
+fun main() {
 
 }
 
