@@ -1,8 +1,31 @@
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.flow.*
+import kotlinx.coroutines.runBlocking
 import java.util.*
 
-fun main() {
+fun main() = runBlocking {
+
+
 
 }
+
+
+
+
+
+
+
+suspend fun observeUserData(userState: StateFlow<UserData?>) {
+    userState.collect {
+        println("User: ${it?.name}")
+    }
+}
+
+
+data class UserData(
+    val name: String,
+    val img: String
+)
 
 
 
