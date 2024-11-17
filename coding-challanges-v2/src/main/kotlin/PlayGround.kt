@@ -1,15 +1,10 @@
-import kotlinx.coroutines.delay
+import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.*
-import kotlinx.coroutines.runBlocking
 import java.util.*
 
-fun main() = runBlocking {
-
-
+fun main() {
 
 }
-
-
 
 
 
