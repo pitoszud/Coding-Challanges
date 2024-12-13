@@ -22,27 +22,27 @@ fun main() {
     val scope = CoroutineScope(EmptyCoroutineContext)
 
     intFlow
-        .onEach {
-            println("Received from launchIn: $it")
-        }
+        .onEach { println("Received from launchIn: $it") }
         .launchIn(scope)
 
     intFlow
-        .onEach {
-            println("Received from launchIn: $it")
-        }
+        .onEach { println("Received from launchIn: $it") }
         .launchIn(scope)
 
 
 
     scope.launch {
-        intFlow.collect {
+        intFlow
+            .onEach { println("Received from onEach: $it") }
+            .collect {
             println("Received from collect: $it")
         }
     }
 
     scope.launch {
-        intFlow.collect {
+        intFlow
+            .onEach { println("Received from onEach: $it") }
+            .collect {
             println("Received from collect $it")
         }
     }
