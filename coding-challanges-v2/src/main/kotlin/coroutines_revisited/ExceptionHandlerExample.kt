@@ -3,15 +3,32 @@ package coroutines_revisited
 import kotlinx.coroutines.*
 
 fun main() {
-    val c = CoroutineExceptionHandler { _, exception ->
+    val exceptionHandler = CoroutineExceptionHandler { _, exception ->
         println("Caught exception: $exception")
     }
+    cancellationExample4(exceptionHandler)
+    Thread.sleep(2000)
 }
 
-suspend fun cancellationExample4(coroutineHandler: CoroutineExceptionHandler) {
+fun cancellationExample4(coroutineHandler: CoroutineExceptionHandler) {
 
     val job = CoroutineScope(Job() + coroutineHandler).launch {
-        delay(200)
-        throw RuntimeException("Error")
+        launch {
+            println("fetch user data")
+            delay(1000)
+            println("user data fetched")
+        }
+
+        launch {
+            println("fetch app data")
+            delay(100)
+            throw RuntimeException("App data fetch failed")
+        }
     }
+
+/*
+* fetch user data
+  fetch app data
+  Caught exception: java.lang.RuntimeException: App data fetch failed
+* */
 }
