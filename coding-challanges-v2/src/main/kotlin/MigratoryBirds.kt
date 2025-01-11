@@ -1,5 +1,3 @@
-package map
-
 fun main() {
     val arr1 = arrayOf(1, 2, 3, 4, 5, 4, 3, 2, 1, 3, 4)
     println("Migratory Birds: ${migratoryBirds(arr1)}")

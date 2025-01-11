@@ -1,5 +1,3 @@
-package integer
-
 fun isUniqueString(str: String): Boolean {
     if (str.length > 128) return false
 
