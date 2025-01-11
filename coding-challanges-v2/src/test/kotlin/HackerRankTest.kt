@@ -1,3 +1,5 @@
+import array.isWithinDistance
+import array.pickingNumbers
 import org.junit.Assert
 import org.junit.Test
 
