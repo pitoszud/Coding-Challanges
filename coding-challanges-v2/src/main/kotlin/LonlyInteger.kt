@@ -1,5 +1,3 @@
-package integer
-
 import kotlin.collections.*
 
 
