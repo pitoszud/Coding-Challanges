@@ -23,6 +23,7 @@ suspend fun main() = coroutineScope {
 
     val scope = CoroutineScope(EmptyCoroutineContext)
 
+    // Launching a flow in a coroutine scope
     intFlow
         .map { it.toDouble() * 1.123 }
         .onStart { println("---- Starting flow 1 ----") }
@@ -43,6 +44,30 @@ suspend fun main() = coroutineScope {
         }
         .launchIn(scope) // shorthand for scope.launch { flow. collect() }
 
+
+
+    // Collecting a flow in a coroutine scope
+    intFlow
+        .map { it.toDouble() * 1.123 }
+        .onStart { println("----- Starting flow 2 -----") }
+        .onCompletion { cause ->
+            if (cause != null) {
+                println("Flow completed exceptionally")
+            } else {
+                println("Flow completed successfully")
+            }
+        }
+        .onEach {
+            println("Received: $it")
+        }
+        .catch { t ->
+            println("Caught exception: ${t.message}")
+            emit(0.0)
+            emitAll(fallbackFlow().map { it.toDouble() })
+        }
+        .collect {
+            println("Received from collect: $it")
+        }
 
 
     intFlow
