@@ -1,10 +1,7 @@
 package coroutines_revisited
 
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.coroutineScope
-import kotlinx.coroutines.delay
+import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.*
-import kotlinx.coroutines.launch
 import kotlin.coroutines.EmptyCoroutineContext
 
 suspend fun main() = coroutineScope {
@@ -37,6 +34,10 @@ suspend fun main() = coroutineScope {
         .onEach {
             println("Received: $it")
         }
+        .retry(1) { cause ->
+            println("Caught exception: $cause, Retry flow")
+            true
+        }
         .catch { t ->
             println("Caught exception: ${t.message}")
             emit(0.0)
@@ -59,6 +60,10 @@ suspend fun main() = coroutineScope {
         }
         .onEach {
             println("Received: $it")
+        }
+        .retry(1) { cause ->
+            println("Caught exception: $cause, Retry flow")
+            true
         }
         .catch { t ->
             println("Caught exception: ${t.message}")
@@ -83,12 +88,33 @@ suspend fun main() = coroutineScope {
         .onEach {
             println("Received: $it")
         }
+        .retry(1) { cause ->
+            println("Caught exception: $cause, Retry flow")
+            true
+        }
         .catch { t ->
             println("Caught exception: ${t.message}")
             emit(0.0)
             emitAll(fallbackFlow().map { it.toDouble() })
         }
         .collect {
+            println("Received from collect: $it")
+        }
+
+
+    /*
+    * Cancel flow
+    * */
+    intFlow
+        .map { it.toDouble() * 1.123 }
+        .onStart { println("----- Starting flow 3 -----") }
+        .onEach {
+            println("Received: $it")
+        }
+        .collect {
+            if (it >= 5) {
+                cancel()
+            }
             println("Received from collect: $it")
         }
 
