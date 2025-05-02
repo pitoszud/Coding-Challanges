@@ -30,9 +30,10 @@ suspend fun main() = coroutineScope {
             } else {
                 println("Flow completed successfully")
             }
+            println("---------------------------------")
         }
         .onEach {
-            println("Received: $it")
+            println("Each: $it")
         }
         .retry(1) { cause ->
             println("Caught exception: $cause, Retry flow")
@@ -57,9 +58,10 @@ suspend fun main() = coroutineScope {
             } else {
                 println("Flow completed successfully")
             }
+            println("---------------------------------")
         }
         .onEach {
-            println("Received: $it")
+            println("Each: $it")
         }
         .retry(1) { cause ->
             println("Caught exception: $cause, Retry flow")
@@ -84,9 +86,10 @@ suspend fun main() = coroutineScope {
             } else {
                 println("Flow completed successfully")
             }
+            println("---------------------------------")
         }
         .onEach {
-            println("Received: $it")
+            println("Each: $it")
         }
         .retry(1) { cause ->
             println("Caught exception: $cause, Retry flow")
@@ -108,14 +111,21 @@ suspend fun main() = coroutineScope {
     intFlow
         .map { it.toDouble() * 1.123 }
         .onStart { println("----- Starting flow 3 -----") }
-        .onEach {
-            println("Received: $it")
+        .onCompletion {
+            println("---------------------------------")
         }
+        .onEach {
+            println("Each: $it")
+            // if (currentCoroutineContext().job.isActive) { throw CancellationException() } // same as ensureActive() and .cancellable()
+            // ensureActive() // same as .cancellable() and the one above
+        }
+        .cancellable()
         .collect {
-            if (it >= 5) {
+            println("Received from collect: $it")
+            if (it >= 2) {
+                println("cancelling flow")
                 cancel()
             }
-            println("Received from collect: $it")
         }
 
     Thread.sleep(2000)
