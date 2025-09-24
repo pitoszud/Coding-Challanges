@@ -7,7 +7,10 @@ import kotlin.coroutines.EmptyCoroutineContext
 
 
 fun main() = runBlocking {
-
+    val value = 3
+    val result = value.coerceIn(1..5) // result = 3
+    val result2 = value.coerceIn(4..10) // result2 = 4
+    println("Result: $result, Result2: $result2")
 }
 
 
