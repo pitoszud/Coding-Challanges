@@ -1,43 +1,31 @@
 import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.*
 import java.util.*
+import kotlin.random.Random
 
 fun main() {
-
+    fizzBuzz(20)
 }
 
 
-
-
-
-suspend fun observeUserData(userState: StateFlow<UserData?>) {
-    userState.collect {
-        println("User: ${it?.name}")
-    }
-}
-
-
-data class UserData(
-    val name: String,
-    val img: String
-)
-
-
-
-fun searchSuggestions(repository: List<String>, customerQuery: String): List<List<String>> {
-    val sortedRepository = repository.sorted().map { it.lowercase(Locale.getDefault()) }
-    val result = mutableListOf<List<String>>()
-    for (i in 1..customerQuery.length) {
-        val query = customerQuery.substring(0, i)
-        val tempWords = mutableListOf<String>()
-        for (word in sortedRepository) {
-            if (word.startsWith(query) && tempWords.size < 3) {
-                tempWords.add(word)
-            }
-            if (tempWords.size == 3) {
-                break
-            }
+fun fizzBuzz(n: Int): List<String> {
+    val resL = mutableListOf<String>()
+    for (i in 1..n) {
+        val d3 = i % 3
+        val d5 = i % 5
+        val r = when {
+            d3 == 0 && d5 == 0 -> "FizzBuzz"
+            d3 == 0 && d5 != 0 -> "Fizz"
+            d3 != 0 && d5 == 0 -> "Buzz"
+            else -> "$i"
         }
+        resL.add(r)
     }
-    return result
+    return resL
 }
+
+
+
+
+
+
