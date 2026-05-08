@@ -10,9 +10,10 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 import kotlin.coroutines.cancellation.CancellationException
+import kotlin.time.Duration.Companion.milliseconds
 
 fun main() = runBlocking {
-    asyncCancel3()
+    asyncCancel1()
     Thread.sleep(4000)
 }
 
@@ -20,9 +21,7 @@ fun main() = runBlocking {
 suspend fun asyncCancel1() = coroutineScope {
     launch {
         try {
-            delay(1000)
-            println("Profile updated")
-            //Uncomment to simulate failure: throw Exception("Profile update failed")
+            delay(1000.milliseconds)
             throw Exception("Profile update failed")
         } catch (e: Exception) {
             if (e is CancellationException) throw e
@@ -33,7 +32,7 @@ suspend fun asyncCancel1() = coroutineScope {
 
     launch {
         try {
-            delay(2000)
+            delay(2000.milliseconds)
             println("Profile picture uploaded")
             // Uncomment to simulate failure: throw Exception("Upload failed")
         } catch (e: Exception) {
@@ -49,11 +48,11 @@ suspend fun asyncCancel2(): String? = coroutineScope {
 
     val result = StringBuilder()
     val job1 = async {
-        delay(1000)
+        delay(1000.milliseconds)
         result.append("Profile updated, ")
     }
     val job2 = async {
-        delay(2000)
+        delay(2000.milliseconds)
         result.append("Profile picture uploaded, ")
     }
     try {
@@ -76,12 +75,12 @@ suspend fun asyncCancel3() = coroutineScope {
 
     CoroutineScope(Job() + exceptionHandler).launch {
         launch(exceptionHandler) {
-            delay(1000)
+            delay(1000.milliseconds)
             throw Exception("Profile update failed")
         }
 
         launch(exceptionHandler) {
-            delay(2000)
+            delay(2000.milliseconds)
             println("Profile picture uploaded")
             throw Exception("Upload failed")
         }
