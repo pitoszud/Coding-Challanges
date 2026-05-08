@@ -1,4 +1,4 @@
-package coroutines_revisited
+package coroutines_revisited.examples
 
 import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.*

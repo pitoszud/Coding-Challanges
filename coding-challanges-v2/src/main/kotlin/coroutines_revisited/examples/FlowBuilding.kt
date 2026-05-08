@@ -1,11 +1,8 @@
-package coroutines_revisited
+package coroutines_revisited.examples
 
 import kotlinx.coroutines.*
-import kotlinx.coroutines.NonCancellable.cancel
-import kotlinx.coroutines.channels.ConflatedBroadcastChannel
 import kotlinx.coroutines.channels.awaitClose
 import kotlinx.coroutines.flow.*
-import kotlinx.coroutines.flow.internal.ChannelFlow
 
 suspend fun main() {
 
