@@ -1,8 +1,10 @@
 package coroutines_revisited.examples
 
 import kotlinx.coroutines.*
+import kotlin.time.Duration.Companion.milliseconds
 
 fun main() {
+    //structuredConcurrencyExample()
     structuredConcurrencyExample2()
 }
 
@@ -12,13 +14,13 @@ fun structuredConcurrencyExample() {
         coroutineScope {
             launch {
                 println("Start Task 1")
-                delay(100)
+                delay(100.milliseconds)
                 println("Task 1 Completed")
             }
 
             launch {
                 println("Start Task 2")
-                delay(300)
+                delay(300.milliseconds)
                 println("Task 2 Completed")
             }
         }
@@ -26,7 +28,7 @@ fun structuredConcurrencyExample() {
         // This scope will be run after the first scope has completed
         viewModelScope.launch {
             println("Start Task 3")
-            delay(300)
+            delay(300.milliseconds)
             println("Task 3 Completed")
         }
     }
@@ -38,38 +40,26 @@ fun structuredConcurrencyExample2() {
     val repoScope = CoroutineScope(SupervisorJob() + Dispatchers.IO)
     viewModelScope.launch {
         println("Start Task 1")
-        delay(300)
+        delay(300.milliseconds)
         println("Task 1 Completed")
 
         repoScope.launch {
             launch {
                 println("Start Task 2")
-                delay(100)
+                delay(100.milliseconds)
                 println("Task 2 Completed")
             }
 
             launch {
                 println("Start Task 3")
-                delay(300)
+                delay(300.milliseconds)
                 println("Task 3 Completed")
             }
         }
 
         println("Start Task 4")
-        delay(300)
+        delay(300.milliseconds)
         println("Task 4 Completed")
     }
     Thread.sleep(1000)
-
-    /*
-    *
-Start Task 1
-Task 1 Completed
-Start Task 4
-Start Task 2
-Start Task 3
-Task 2 Completed
-Task 4 Completed
-Task 3 Completed
-    * */
 }
